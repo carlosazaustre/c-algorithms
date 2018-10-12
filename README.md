@@ -86,3 +86,15 @@ Return `true` or `false`. In C, does not exist the `boolean` value.
 
 - `!true = false`
 - `!false = true`
+
+## Data Output
+Standard output data. by default is the screen. function: `printf`
+
+- `%c`: Shows a character
+- `%d`: Shows a integer number
+- `%x`: Shows a integer number in hexadecimal way.
+- `%X.Yf`: Shows a real number with X ineger value and Y decimal value.
+- `%s`: Shows a string characters.
+
+## Data Input
+Enter data in the code, by default is the keyboard. function: `scanf`.
