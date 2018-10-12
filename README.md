@@ -49,3 +49,40 @@
 
 #### Variables
 Piece of memory where a data is stored.
+
+### Operators
+1. Assigned 
+  - (e.g: `=`, `var = expression`)
+2. Aritmethycs
+  - `()`, `*`, `/`, `%`, `+`, `-`
+3. Relationals
+
+|Operator|Example|Meaning|
+|---|---|---|
+|`==`| `x == y` | X is equal to Y |
+|`!=`| `x != y` | X is not equal to Y |
+|`>`| `x > y` | X is greater than Y | 
+|`<`| `x < y` | X is less than Y | 
+|`>=`| `x >= y` | X is greater or equal than Y | 
+|`<=`| `x <= y` | X is less or equal than Y | 
+
+4. Logic
+Return `true` or `false`. In C, does not exist the `boolean` value.
+|Operator|Logic Operation|
+|---|---|
+|`&&` | AND|
+|`|| `| OR|
+|`!`| NOT|
+
+- `true && true = true`
+- `true && false = false`
+- `false && true = false`
+- `false && false = false`
+
+- `true || true = true`
+- `true || false = true`
+- `false || true = true`
+- `false || false = false`
+
+- `!true = false`
+- `!false = true`
